@@ -1,0 +1,67 @@
+/* General Body and Font Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background-color: #f4f7f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 2rem 1rem;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-weight: 700;
+}
+
+header p {
+    font-size: 1.1rem;
+    margin-top: 10px;
+}
+
+/* Main Container */
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+/* Post Card Styling */
+.post {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 25px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.post:hover {
+    transform: translateY(-5px);
+}
+
+.post h3 {
+    font-size: 1.5rem;
+    color: #0056b3;
+    margin-top: 0;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+}
+
+.post p {
+    color: #555;
+}
+
+/* Loading Message Styling */
+#posts-container p {
+    text-align: center;
+    font-style: italic;
+    color: #777;
+}
